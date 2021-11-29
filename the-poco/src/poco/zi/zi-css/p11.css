@@ -1,0 +1,172 @@
+/* 认证项目 */
+.vnav-container1{
+  padding: 20px 15px;
+}
+.vnav-container2{
+  padding: 20px 10px;
+}
+.box-container{
+  margin-bottom: 20px;
+}
+.nav-container{
+  box-shadow: 0 0 15px 0 #00000024;
+}
+.list-container{
+  padding-top: 20px;
+  text-align: center;height: 100px;
+}
+.img-container{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+.p11-2{
+    background: url(../images/p11-2.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100% !important;
+}
+.p11-3{
+    background: url(../images/p11-3.png) no-repeat;
+      background-size: auto;
+      width: 100%;
+      height: 100%;
+    background-size: 100% 100% !important;
+}
+.p11-4{
+    background: url(../images/p11-4.png) no-repeat;
+      background-size: auto;
+      width: 100%;
+      height: 100%;
+    background-size: 100% 100% !important;
+}
+.brand{
+  margin-left: 11.5%;
+  width: 140px;
+  margin-top: -70px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.p11-p{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+.p11-span{
+  font-size: 13px;
+  color: #999;
+  text-align: justify;
+  display: inline-block;
+}
+
+.status{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFAC0C;
+  border: 1px solid #FFEAC0;
+  border-radius: 19px;
+  
+  line-height: 40px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
+.ant-btn {
+  height: 40px;
+}
+.status.userf1{
+  background: -webkit-linear-gradient(left,#ff7676,#d73b3b);
+  color: #FFF;
+  border: 0;
+}
+.status.userf2{
+  background: -moz-linear-gradient(left,#65CBFF,#029BE9);
+  color: #FFF;
+  border: 0;
+}
+/* 认证优势 */
+.ver-benefit{
+  text-align: center;
+}
+.ben-container{
+  text-align: center;
+  padding: 0 30px;
+}
+.sec-title{
+  /* padding: 0 0 24px; */
+  /* padding-bottom: 8px !important; */
+  /* line-height: 28px; */
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.benli-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ben-lists{
+  margin-top: 4.7%;
+  flex: 0 0 50%;
+}
+.p11-51{
+  background: url(../images/p11-51.png);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  background-size: 100% 100% !important;
+}
+.p11-52{
+  background: url(../images/p11-52.png);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  background-size: 100% 100% !important;
+}
+.p11-53{
+  background: url(../images/p11-53.png);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  background-size: 100% 100% !important;
+}
+.p11-54{
+  background: url(../images/p11-54.png);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  background-size: 100% 100% !important;
+}
+.p11-55{
+  background: url(../images/p11-55.png);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  background-size: 100% 100% !important;
+}
+.p11-56{
+  background: url(../images/p11-56.png);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  background-size: 100% 100% !important;
+}
+.ben-title{
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+/* 
+<div className='ver-benefit'>
+<div className='ben-container'>
+<div className='sec-title'>
+认证优势
+</div>
+<div className='benli-container'>
+<div className='ben-lists'>
+<div className='p11-51'></div>
+<div className='ben-title'> */

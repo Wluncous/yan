@@ -1,0 +1,141 @@
+@import '~antd/dist/antd.css';
+.ant-layout,.ant-layout-footer{
+  background: #ffffff;
+}
+/* 头部 */
+.ant-layout-header{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  line-height: 44px;
+}
+.ant-layout-header {
+  margin-bottom: -20px;
+}
+
+
+.option{
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+.cc_title{
+  font-size: 18px;
+  line-height: 44px;
+  height: 44px;
+
+  color: white;
+  text-align: center;
+}
+/* 走马灯 */
+.ant-carousel .slick-dots li.slick-active {
+  width: 8px;
+}
+.slick-dots {
+  margin: 0px;
+}
+/* 快捷跳转组件 */
+.p2zj{
+  background-repeat:no-repeat;
+  display: inline;
+  display: flex;
+  text-align: center;
+  padding: 0 30px;
+}
+li{
+  display: inline;
+  flex:1;
+  padding-top: 20px;
+}
+
+.zj1,.zj2,.zj3{  height: 43px;
+  width: 43px;
+  margin: 0 auto;
+  background-size: 43px 43px;
+}
+.zj1{
+  background-image: url(./image/demo1.png);}
+.zj2{
+  background-image: url(./image/demo2.png);}
+.zj3{
+  background-image: url(./image/demo3.png);}
+
+/* 热门推荐 */
+a{
+  display: block;
+  display: inline;
+  text-decoration: none;
+  color: #333;
+}
+a:hover{
+  color: black;
+}
+.p3tj{
+  overflow: hidden;
+  padding-top: 18px;
+  display: block;
+}
+.title{
+  padding: 12px 12px;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.list{
+  padding: 0 10px 0px;
+  font-size: 14px;
+}
+.p3tj > div:nth-child(1) {
+  margin-bottom: 10px;
+  }
+.rbox{
+ flex: 1;
+ padding: 3px 0 0 10px;
+}
+img{
+  width:100%;
+  object-fit: cover;
+}
+
+a li{
+  display: flex;
+  padding: 0;
+}
+/* 推荐作品 */
+.p5zp{
+  margin-top: -2px;
+}
+div ~ .list{
+  padding: 0px; 
+  /* 分为两列 间隔2px */
+  column-count: 2;
+  column-gap: 2px;
+  margin-bottom: 0px;
+}
+.box{
+  height: 50vw;
+  margin-top: -3px;
+}
+
+.ant-image{
+  width: 100%;
+  height: 100%;
+}
+/* 下载 */
+.app{
+  line-height: 45px;
+  text-align: center;
+  background: #3f9adc;
+  color: #fff;
+  font-size: 16px;
+  margin-top: -6px;
+}
+footer > .title{
+  padding: 35px 0 55px;
+  text-align: center;
+  border: none;
+}
+.logo{
+  width: 132px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}

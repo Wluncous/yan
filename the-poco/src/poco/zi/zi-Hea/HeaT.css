@@ -1,0 +1,19 @@
+
+.ant-menu.ant-menu,
+.ant-drawer-body {
+    color:#ffffff;
+    background: #303030;
+}
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+    font-size: 18px;
+}
+
+.ant-layout-header {
+    margin-bottom: 0px;
+    height: 44px;
+}
+
+.ant-drawer-body{
+    padding: 0;
+}

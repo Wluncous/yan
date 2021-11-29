@@ -1,0 +1,109 @@
+/* p12 */
+.p12bj{
+    background-image: url(../images/p12bj.jpg);
+    background-size: 100%;
+    padding-top: 64px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.p12-0{
+    width: 247px;
+    height: 60px;
+    margin: 0 auto;
+    background: url(../images/p12-0.png) no-repeat;
+      background-size: auto;
+    background-size: 247px 60px;
+}
+.p12-1{
+    width: 247px;
+    height: 15px;
+    margin: 24px auto 46px;
+    background: url(../images/p12-1.png) no-repeat;
+      background-size: auto;
+    background-size: 247px 15px;
+}
+.p12-2{
+    display: block;
+    width: 210px;
+    height: 40px;
+    padding-right: 1px;
+    margin: 0 auto;
+    background-image: url(../images/p12-2.png);
+    background-size: 210px 40px;
+}
+.p12-3{
+    width: 197px;
+    height: 393px;
+    margin: 51px auto 0;
+    background: url(../images/p12-3.png) no-repeat;
+        background-size: auto;
+    background-size: 100%;
+    transform: translate(0px,0);
+}
+.p12-4,.p12-5{
+    width: 300px;
+    height: 287px;
+    margin: 67px auto 0;
+    position: relative;
+}
+.p12-6{
+    width: 300px;
+    height: 287px;
+    margin: 0 auto 67px;
+    position: relative;
+}
+.span{
+    position: absolute;
+    background-size: 100%;
+}
+.i{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-size: 100%;
+}
+.p12-4 > span{
+    width: 148px;
+    height: 288px;
+    background-image: url(../images/p12-4a.png);
+}
+.p12-4 >i{
+    width: 145px;
+    height: 85px;
+    background-image: url(../images/p12-4b.png);
+    margin-top: -30px;
+}
+.p12-5 > span{
+    width: 148px;
+    height: 288px;
+    background-image: url(../images/p12-5a.png);
+    right: 0;
+}
+.p12-5 >i{
+    width: 145px;
+    height: 85px;
+    background-image: url(../images/p12-5b.png);
+    left: 0;
+    margin-top: -30px;
+}
+.p12-6 > span{
+    width: 148px;
+    height: 288px;
+    background-image: url(../images/p12-6a.png);
+}
+.p12-6 >i{
+    width: 145px;
+    height: 85px;
+    background-image: url(../images/p12-6b.png);
+    margin-top: -30px;
+}
+.footer {
+    font-size: 10px;
+    color: #aaa;
+    text-align: center;
+    margin-top: 31px;
+    line-height: 23px;
+}
+p{
+    margin: 0;
+}

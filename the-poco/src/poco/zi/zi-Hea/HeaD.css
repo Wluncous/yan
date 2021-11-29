@@ -1,0 +1,33 @@
+
+/* 返回箭头 */
+.ant-drawer-close {
+    left: 0px;
+}
+.ant-drawer-close {
+    padding:20px 0 6px 18px;
+}
+.optionF{
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+div[class='ant-drawer-header-no-title'] + .ant-drawer-body {
+    background: #fff;
+}
+/* 头部注册、分类 */
+.cc-right{
+    position: absolute;
+    right: 0px;
+    top:6px;
+    color: #fff;
+    font-size: 15px;
+}
+/* 分类内容 */
+.f-cur{
+    padding:0 15px
+}
+.f-cur a{
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+}

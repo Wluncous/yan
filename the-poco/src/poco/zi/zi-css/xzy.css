@@ -1,0 +1,63 @@
+
+.panel{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.xzy-icon{
+    height: 64px;
+    width: 64px;
+}
+.btn-layout{
+    margin-top: 60px;
+}
+
+.virus{
+    color: #969696;
+    font-size: 12px;
+    line-height: 34px;
+}
+.download{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.fast-download{
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    background-color: #1d82ff;
+    color: #fff;
+}
+.normal-download{
+    position: absolute;
+    top: 44px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 14px;
+    margin: 10px auto 14px
+}
+
+.xzy-footer{
+    position: fixed;
+    bottom: 70px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    color: #969696;
+}
+
+.panel > div:nth-child(1) {
+    margin-bottom: -30px;
+}

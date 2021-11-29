@@ -1,0 +1,103 @@
+@import '~antd/dist/antd.css';
+
+
+
+/* p13 */
+.p13z{
+    background: #fff;
+    padding: 15px 10px 14px;
+    overflow: hidden;
+}
+h3{
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+}
+h3+p{
+    margin-bottom: 5px;
+    color: #aaa;
+    font-size: 11px;
+}
+.ant-layout-content > p{
+    margin-bottom: 16px;
+}
+img+p{
+    text-align: center;
+    color: #aaa;
+}
+.recomend{
+    margin: 45px 0 30px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+.p13-footer{
+    display: block;
+    margin: 0 auto;
+    width: 64px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    line-height: 64px;
+    text-align: center;
+    color: #ccc;
+}
+.p13-icon{
+    font-size: 24px;
+    font-style: normal;
+}
+.p13-footerz{
+    display: block;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #666;
+}
+
+.comment{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+.write{
+    position: absolute;
+    right: 0;
+    top: 14px;
+    padding: 5px 10px;
+    border: 0;
+}
+button.write{
+    top:-2px
+}
+h5{
+    font-size: 16px;
+    margin-top: 13px;
+    color: #666;
+    padding: 0 10px 13px;
+}
+.cc-list{
+    padding: 0 16px;
+    text-align: center;
+    margin: 20px 0 50px 0;
+    font-size: 16px;
+}
+
+.cc-list > button:nth-child(1) {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.comment-write{
+    display: block;
+    line-height: 16px;
+    font-size: 14px;
+    color: #2c72ac;
+    margin-top: -24px;
+}
+
+/* p14 */
+.text-bac{
+    background:#b0c0ff;
+    height:35px;
+    align-items:center;
+    display: flex;
+    justify-content:center;
+}
