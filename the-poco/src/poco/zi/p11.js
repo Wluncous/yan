@@ -1,6 +1,6 @@
 
 import React, {Component} from 'react';
-import {Button, Layout} from 'antd';
+import {Button, Layout,BackTop} from 'antd';
 
 import './zi-css/p11.css';
 import Hea11 from './zi-Hea/Hea11认证'
@@ -10,6 +10,12 @@ import p1 from './images/p11-1.png'
 
 const { Header, Footer, Content } = Layout;
 
+const up = {
+    height: 40,width: 40,borderRadius: 4,
+    lineHeight: '40px',
+    backgroundColor: '#65cbff',color: '#fff',
+    textAlign: 'center',fontSize: 14,
+}
 
 
 
@@ -31,6 +37,9 @@ class App extends Component{
                 {/* 内容↓ */}
                 <div>
                 <Content>
+                    <BackTop>
+                        <div style={up}>up</div>
+                    </BackTop>
                     <div><img src={p1} alt=''/></div>
                     <div className='vnav-container1'>
                         <div className='box-container'>
